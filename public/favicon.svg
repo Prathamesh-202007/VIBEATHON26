@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VIBEATHON icon">
+  <rect width="64" height="64" rx="12" fill="#06050a"/>
+  <path d="M12 13h40L34 51h-4L12 13Z" fill="#f4f0ff"/>
+  <path d="M22 13h30L34 51h-4l9-25H25l-3-13Z" fill="#b62cff"/>
+  <path d="M15 13h37l-5 11H20l-5-11Z" fill="#ffffff" opacity=".82"/>
+</svg>
