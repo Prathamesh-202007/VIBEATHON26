@@ -26,7 +26,7 @@ export default function Hero() {
             ACPCE IT DEPT
           </p>
           <p className="reveal-up text-xs font-extrabold uppercase tracking-[0.18em] text-foreground md:text-sm" data-reveal>
-            03 OCT 2026
+            10 OCT 2026
           </p>
         </div>
 
