@@ -39,7 +39,7 @@ export default function Hero() {
           </p>
           <div className="reveal-up mt-10 flex justify-center" data-reveal>
             <Button asChild variant="cinematic" size="xl">
-              <a href="#register" onClick={(event) => scrollToId(event, "register")}>
+              <a href="https://unstop.com/o/dcjKCLm" onClick={(event) => scrollToId(event, "register")}>
                 REGISTER NOW →
               </a>
             </Button>
