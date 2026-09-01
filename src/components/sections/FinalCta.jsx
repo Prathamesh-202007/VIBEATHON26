@@ -16,7 +16,7 @@ export default function FinalCta() {
           Bring your team, prove your idea, and step into a live challenge where adaptability becomes the advantage.
         </p>
         <Button asChild variant="cinematic" size="xl" className="reveal-up mt-10" data-reveal>
-          <a href="https://example.com/register" target="_blank" rel="noreferrer">
+          <a href="https://unstop.com/o/dcjKCLm" target="_blank" rel="noreferrer">
             REGISTER YOUR TEAM →
           </a>
         </Button>
