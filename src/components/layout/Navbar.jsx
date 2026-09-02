@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { navItems, registrationUrl } from "@/data/eventData";
+import vibeathonLogo from "@/assets/vibeathon-logo.png";
 
 export default function Navbar({
   menuOpen,
@@ -22,13 +23,23 @@ export default function Navbar({
   return (
     <nav className="fixed top-6 left-1/2 z-9999 w-[90%] max-w-6xl -translate-x-1/2">
       <div className="flex items-center justify-between rounded-full border border-white/10 bg-black/80 px-5 py-3 shadow-2xl backdrop-blur-xl">
-        
+
         {/* Logo */}
         <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="text-lg font-bold tracking-wide text-white"
+          onClick={() =>
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            })
+          }
+          className="flex items-center"
+          aria-label="Go to top"
         >
-          VIBEATHON 2026
+          <img
+            src={vibeathonLogo}
+            alt="VIBEATHON 2026"
+            className="h-14 w-auto object-contain md:h-16"
+          />
         </button>
 
         {/* Desktop Navigation */}
@@ -52,7 +63,9 @@ export default function Navbar({
             } else {
               document
                 .querySelector("#register")
-                ?.scrollIntoView({ behavior: "smooth" });
+                ?.scrollIntoView({
+                  behavior: "smooth",
+                });
             }
           }}
           className="hidden rounded-full bg-white px-5 text-black hover:bg-white/90 md:flex"
@@ -74,6 +87,7 @@ export default function Navbar({
       {menuOpen && (
         <div className="mt-3 rounded-2xl border border-white/10 bg-black/95 p-4 backdrop-blur-xl md:hidden">
           <div className="flex flex-col gap-2">
+
             {navItems.map((item) => (
               <button
                 key={item.label}
@@ -91,11 +105,18 @@ export default function Navbar({
 
                 if (registrationUrl && registrationUrl !== "#") {
                   window.open(registrationUrl, "_blank");
+                } else {
+                  document
+                    .querySelector("#register")
+                    ?.scrollIntoView({
+                      behavior: "smooth",
+                    });
                 }
               }}
             >
               REGISTER NOW →
             </Button>
+
           </div>
         </div>
       )}
