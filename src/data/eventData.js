@@ -83,12 +83,7 @@ export const roundThree = [
 
 export const prizes = [
   { title: "WINNER", prize: "Prize to be announced", code: "01" },
-  { title: "RUNNER-UP", prize: "Prize to be announced", code: "02" },
-  {
-    title: "SECOND RUNNER-UP",
-    prize: "Prize to be announced",
-    code: "03"
-  }
+  { title: "RUNNER-UP", prize: "Prize to be announced", code: "02" }
 ];
 
 export const judges = [
