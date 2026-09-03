@@ -1,4 +1,4 @@
-export const registrationUrl = "#register";
+export const registrationUrl = "https://unstop.com/o/dcjKCLm?lb=SP8QLOV8&utm_medium=Share&utm_source=online_coding_challenge&utm_campaign=Yashpur64018";
 
 export const navItems = [
   { label: "About", href: "#about" },
