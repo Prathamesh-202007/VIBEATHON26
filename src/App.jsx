@@ -28,7 +28,6 @@ export default function App() {
       <StatsSection />
       <TimelineSection />
       <PrizesSection />
-      <SponsorsSection />
       <VenueSection />
       <FaqSection />
       <FinalCta />
