@@ -8,7 +8,6 @@ import HowItWorks from "@/components/sections/HowItWorks";
 import StatsSection from "@/components/sections/StatsSection";
 import TimelineSection from "@/components/sections/TimelineSection";
 import PrizesSection from "@/components/sections/PrizesSection";
-import SponsorsSection from "@/components/sections/SponsorsSection";
 import VenueSection from "@/components/sections/VenueSection";
 import FaqSection from "@/components/sections/FaqSection";
 import FinalCta from "@/components/sections/FinalCta";
